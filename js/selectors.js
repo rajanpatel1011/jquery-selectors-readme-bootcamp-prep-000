@@ -16,5 +16,5 @@ function divSelector(){
   return $('div.pics,div.pics').addClass('pics');
 }
 function firstListItem(){
-  return $('ul#pic-list').childern('li').html('');
+  return $('ul#pic-list').childern('li').get();
 }
